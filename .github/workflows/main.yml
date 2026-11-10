@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        account: [1]
+        account: [3]
         include:
           - account: 3
             delay: 0
